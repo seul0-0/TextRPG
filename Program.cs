@@ -13,7 +13,7 @@ public class Program
         Console.WriteLine("그래, 자네가 이번에 새로 온 신입인가.");
         Console.WriteLine("혼자서 멍하니 있다간 지나가던 귀신이 자네를 데려갈지도 모르지.");
         Console.WriteLine("시왕전의 명부에 이름을 올려야 하니, 자네 이름부터 말해."); Console.Write("이름: ");
-        string playerName = Console.ReadLine(); // 사용자의 입력을 받아 playerName 변수에 저장
+        string playerName = Console.ReadLine(); // 사용자의 입력을 받아 playerName 변수에 저장.
         Console.WriteLine();
 
         GameDataSetting(playerName); // 입력받은 이름을 GameDataSetting 함수에 전달
